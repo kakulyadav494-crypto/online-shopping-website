@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHOPEE | Modern Shopping</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Merriweather', 'serif'],
+              mono: ['Fira Code', 'monospace'],
+            },
+            colors: {
+              primary: 'var(--color-primary)',
+              secondary: 'var(--color-secondary)',
+            }
+          }
+        }
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --color-primary: #2563eb; /* blue-600 */
+        --color-secondary: #1e40af; /* blue-800 */
+      }
+      body {
+        background-color: #f8fafc;
+      }
+    </style>
+  <!--<script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "dotenv": "https://aistudiocdn.com/dotenv@^17.2.3",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "mysql2/": "https://aistudiocdn.com/mysql2@^3.15.3/",
+    "express": "https://aistudiocdn.com/express@^5.1.0",
+    "bcrypt": "https://aistudiocdn.com/bcrypt@^6.0.0",
+    "cors": "https://aistudiocdn.com/cors@^2.8.5"
+  }
+  }-->
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
